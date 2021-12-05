@@ -14,5 +14,34 @@ public class Main {
             c) wyświetlić dane z tablicy, użyć pętli for lub forEach
             d) dane powinny być estetycznie przedstawione
          */
+        Student[] students = new Student[3];
+        Student Paulina = new Student("Paulina", "Piotrowska", 26, true);
+        Student Bernard = new Student("Bernard", "Piotrowski", 30, false);
+        Student Marika = new Student("Marika", "Kantor", 19, true);
+
+        students[0] = Paulina;
+        students[1] = Bernard;
+        students[2] = Marika;
+
+
+        for(Student a : students)
+        {
+            String plec;
+
+            if(a.plec ==true)
+            {
+                plec = "żeńskiej";
+            }
+            else
+            {
+                plec = "męskiej";
+            }
+
+            String wiadomosc = a.imie + " " + a.nazwisko + " jest studentem w wieku " + a.wiek + " lat, o płci " + plec;
+            System.out.println(wiadomosc);
+        }
+
+
+
     }
 }
