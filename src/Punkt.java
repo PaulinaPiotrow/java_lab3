@@ -43,6 +43,22 @@ public class Punkt {
     {
         this.pZ = pZ;
     }
+    public int Suma(int pX, int pY, int pZ)
+    {
+        return pX + pY + pZ;
+    }
+    public int Roznica()
+    {
+        return pX - pY - pZ;
+    }
+    public int Roznica(int x, int y, int z)
+    {
+        return pX*x - pY*y - pZ*z;
+    }
+    public String toString()
+    {
+        return "pX = " + pX + " pY = " + pY + " pZ = " + pZ;
+    }
 
 
     /* stworzyć
