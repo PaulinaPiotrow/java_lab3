@@ -43,7 +43,7 @@ public class Punkt {
     {
         this.pZ = pZ;
     }
-    public int Suma(int pX, int pY, int pZ)
+    public int Suma()
     {
         return pX + pY + pZ;
     }

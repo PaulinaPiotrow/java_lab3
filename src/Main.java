@@ -6,6 +6,22 @@ public class Main {
 
     public static void main(String[] args) {
 
+
+        Punkt punktA = new Punkt(7);
+        System.out.println(punktA);
+        punktA = new Punkt(1,2,3);
+        System.out.println(punktA);
+        punktA.setpX(12);
+        punktA.setpY(9);
+        punktA.setpZ(15);
+        System.out.println("pX = " + punktA.getpX() + " pY = " + punktA.getpY() + " pZ = " + punktA.getpZ());
+        System.out.println( "Suma = " + punktA.Suma() +
+        " Różnica = " + punktA.Roznica() +
+        " Różnica = " + punktA.Roznica(1,2,3));
+
+
+
+
         /* ćw 3 klasy */
 
         /*  zad.1 - Najpierw należy uzupełnić kod w klasie Punkt.java,
