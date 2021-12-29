@@ -1,6 +1,26 @@
+import java.util.ArrayList;
+import java.util.List;
 public class Main {
 
     public static void main(String[] args) {
+        List<Student> ListaStudentow = new ArrayList<>();
+        Student student1 = new Student("Paulina", "Piotrowska", 56784, WydzialEnum.Informatyczny);
+        Student student2 = new Student ("Kamila", "Kamińska", 45673, WydzialEnum.Lekarski);
+        Student student3 = new Student("Marika", "Kantor", 12345, WydzialEnum.Chemiczny);
+        Student student4 = new Student("Bernard", "Kowalewski", 78906, WydzialEnum.Farmaceutyczny);
+        Student student5 = new Student("Tomasz", "Ogiński", 45687, WydzialEnum.Lekarski);
+
+        ListaStudentow.add(student1);
+        ListaStudentow.add(student2);
+        ListaStudentow.add(student3);
+        ListaStudentow.add(student4);
+        ListaStudentow.add(student5);
+
+        for(Student s: ListaStudentow)
+        {
+            System.out.println(s);
+        }
+
         /* ćw 4 klasy */
 
         /* zad.1

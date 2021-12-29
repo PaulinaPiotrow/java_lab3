@@ -5,7 +5,6 @@ public class Student
 
     public Student()
     {
-
     }
 
     public Student (String imie, String nazwisko, int index_nr, WydzialEnum wydzial)
@@ -14,5 +13,29 @@ public class Student
         this.wydzial = wydzial;
     }
 
+    public Osoba getOsoba()
+    {
+        return osoba;
+    }
+
+    public void setOsoba(Osoba osoba)
+    {
+        this.osoba = osoba;
+    }
+
+    public WydzialEnum getWydzial()
+    {
+        return wydzial;
+    }
+
+    public void setWydzial(WydzialEnum wydzial)
+    {
+        this.wydzial = wydzial;
+    }
+
+    public String toString()
+    {
+        return "Student " + osoba + " Wydział " + wydzial;
+    }
 }
 
