@@ -4,10 +4,10 @@ public class Osoba
     private String nazwisko;
     private int index;
 
-    public Osoba()
+    public Osoba(String imie, String nazwisko, int index_nr)
     {
-        this.imie = imie;
-        this.nazwisko = nazwisko;
+        this.imie = this.imie;
+        this.nazwisko = this.nazwisko;
         this.index = index;
     }
 
