@@ -35,7 +35,7 @@ public class Student
 
     public String toString()
     {
-        return "Student " + osoba + " Wydział " + wydzial;
+        return "Student " + osoba.getImie() + " " + osoba.getNazwisko() + " Wydział " + wydzial;
     }
 }
 

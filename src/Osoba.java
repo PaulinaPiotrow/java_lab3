@@ -6,8 +6,8 @@ public class Osoba
 
     public Osoba(String imie, String nazwisko, int index_nr)
     {
-        this.imie = this.imie;
-        this.nazwisko = this.nazwisko;
+        this.imie = imie;
+        this.nazwisko = nazwisko;
         this.index = index;
     }
 
