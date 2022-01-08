@@ -21,19 +21,19 @@ public class Pies extends Zwierzeta
           this.czySczepiony = true;
 
      }
-     public String setKolor()
+     public String getKolor()
      {
           return kolor;
      }
-     public void getKolor(String kolor)
+     public void setKolor(String kolor)
      {
           this.kolor = kolor;
      }
-     public boolean setczySzczepiony()
+     public boolean get_czySzczepiony()
      {
           return czySczepiony;
      }
-     public void getczySzczepiony()
+     public void set_czySzczepiony(boolean czySczepiony)
      {
           this.czySczepiony = czySczepiony;
      }
