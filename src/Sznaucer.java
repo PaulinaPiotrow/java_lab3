@@ -34,13 +34,8 @@ public class Sznaucer extends Pies
     }
 
     @Override
-    public String toString() {
-        return "Sznaucer{" +
-                "kolor='" + kolor + '\'' +
-                ", czySczepiony=" + czySczepiony +
-                ", wielkosc='" + wielkosc + '\'' +
-                ", imie='" + imie + '\'' +
-                ", wiek=" + wiek +
-                '}';
+    public String toString()
+    {
+        return super.toString() + "wielkość " + wielkosc;
     }
 }

@@ -19,9 +19,9 @@ public class Main {
         List<Zwierzeta> zwierzeta = new ArrayList<>();
         Zwierzeta zwierze = new Zwierzeta("Candy", 9, true);
         zwierzeta.add(zwierze);
-        zwierze = new Pies("Candy", 9, "czarny", true);
+        zwierze = new Pies("Candy", 11, "czarny", true);
         zwierzeta.add(zwierze);
-        zwierze = new Sznaucer("Blacky", 11, "miniatura", true, "miniatura");
+        zwierze = new Sznaucer("Blacky", 11, "czarny", true, "miniatura");
         zwierzeta.add(zwierze);
         System.out.println(zwierzeta);
 
