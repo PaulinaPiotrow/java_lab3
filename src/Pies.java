@@ -14,6 +14,13 @@ public class Pies extends Zwierzeta
           this.kolor = kolor;
           this.czySczepiony = true;
      }
+
+
+     @Override
+     public String toString() {
+          return super.toString() + "kolor " + kolor + " czy szczepiony " + czySczepiony;
+     }
+
      public Pies(String imie, int wiek, String kolor, boolean czySczepiony)
      {
           super(imie, wiek);
@@ -37,11 +44,7 @@ public class Pies extends Zwierzeta
      {
           this.czySczepiony = czySczepiony;
      }
-     @Override
-     public String toString()
-     {
-          return "Pies " + super.toString() + " kolor: " + kolor + " czy Szczepiony " + czySczepiony;
-     }
+
 
 
 }

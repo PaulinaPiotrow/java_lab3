@@ -10,6 +10,15 @@ public class Zwierzeta
         this.wiek = 0;
         this.czyDomowy = true;
     }
+
+    @Override
+    public String toString() {
+        return "Zwierzeta " +
+                "imie='" + imie + '\'' +
+                ", wiek=" + wiek +
+                ", czyDomowy=" + czyDomowy;
+    }
+
     public Zwierzeta(String imie, int wiek, boolean czyDomowy)
     {
         this.imie = imie;
@@ -52,11 +61,5 @@ public class Zwierzeta
     public void setCzyDomowy(boolean czyDomowy) {
         this.czyDomowy = czyDomowy;
     }
-    @Override
-    public String toString()
-    {
-        return "Imie " + imie
-                + " wiek " + wiek
-                + " czyDomowy= " + (czyDomowy ? "Tak" : "Nie");
-    }
+
 }
